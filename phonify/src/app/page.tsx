@@ -18,10 +18,7 @@ export default async function Home() {
   return (
     <main className="flex-1 flex flex-col bg-white">
       {/* desktop */}
-      <section
-        id="banner-s"
-        className="flex-1 items-center hidden md:block"
-      >
+      <section id="banner-s" className="flex-1 items-center hidden md:block">
         <div className="flex flex-col w-screen bg-black items-center justify-center">
           <img
             src={
@@ -70,7 +67,7 @@ export default async function Home() {
               className="min-w-52 max-w-52 md:min-w-72 md:max-w-72  snap-awalys snap-center rounded-2xl border-2 border-gray-300"
             >
               <Link href={`/product/${el.slug}`}>
-                < src={el.thumbnail} alt="" className="rounded-xl" />
+                <img src={el.thumbnail} alt="" className="rounded-xl" />
               </Link>
               <div className="p-5 ">
                 <h1 className="text-xl font-bold text-black">{el.name}</h1>
