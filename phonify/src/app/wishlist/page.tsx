@@ -39,7 +39,7 @@ export default async function Page() {
             >
               <div className="avatar basis-1/4">
                 <div className="w-24 rounded">
-                  <Image src={el.product.thumbnail} alt="" />
+                  <img src={el.product.thumbnail} alt="" />
                 </div>
               </div>
               <h1 className="basis-1/4 font-bold text-black">

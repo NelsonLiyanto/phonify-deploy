@@ -35,7 +35,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
         </div>
         <div className="flex flex-col md:flex-row gap-10">
           <div className="basis-1/2 sm:basis-1/2 md:basis-1/2 xl:basis-1/4 flex flex-col gap-2">
-            <Image
+            <img
               src={detailedProduct?.thumbnail}
               alt="image"
               className="max-w-full rounded-2xl"
@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
             <div className="flex snap-mandatory snap-x overflow-x-scroll gap-x-2 max-w-max">
               {detailedProduct?.images.map((el, i) => (
-                <Image
+                <img
                   key={i}
                   src={el}
                   alt=""

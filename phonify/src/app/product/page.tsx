@@ -40,7 +40,7 @@ export default async function Page({
             className="min-w-52 max-w-52 md:min-w-72 md:max-w-72  snap-awalys snap-center rounded-2xl border-2 border-gray-300"
           >
             <Link href={`/product/${el.slug}`}>
-              <Image src={el.thumbnail} alt="image" className="rounded-xl" />
+              <img src={el.thumbnail} alt="image" className="rounded-xl" />
             </Link>
             <div className="p-5 ">
               <h1 className="text-xl font-bold text-black">{el.name}</h1>
