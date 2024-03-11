@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { LimitProducts, Product } from "./types";
-import  from "next/";
 
 const fetchProductsLimited = async () => {
   const URL = process.env.BASE_URL || "http://localhost:3000";
